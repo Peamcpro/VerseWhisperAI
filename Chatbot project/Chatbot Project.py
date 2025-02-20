@@ -4,19 +4,11 @@ import textwrap
 
 client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+  api_key="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",
 )
 
 def generate_poem(topic, style, tone, length):
-    """
-    Generate a poem based on user-defined parameters using DeepSeek API.
     
-    :param topic: The subject of the poem (e.g., nature, technology).
-    :param style: The poetic form (e.g., haiku, sonnet, free verse).
-    :param tone: The emotional tone (e.g., melancholic, inspirational).
-    :param length: Desired length (e.g., short, long).
-    :return: AI-generated poem as a string.
-    """
     prompt = (
         f"\n\U0001F4DD Write a {style} about {topic} in a {tone} style. "
         f"Use vivid imagery and metaphors. Keep it {length}.\n"

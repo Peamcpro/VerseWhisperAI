@@ -1,68 +1,91 @@
-from openai import OpenAI
-import requests
+import random
 import textwrap
+import nltk
+from nltk.corpus import cmudict
+from transformers import pipeline
+from openai import OpenAI
 
+# Load Sentiment Analysis Model
+sentiment_analyzer = pipeline("sentiment-analysis")
+
+# Load CMU Pronouncing Dictionary for Rhyming
+nltk.download('cmudict')
+pronouncing_dict = cmudict.dict()
+
+# OpenAI API Client
 client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key="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",
+    base_url="https://openrouter.ai/api/v1",
+    api_key="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",  # Replace with your API key
 )
 
+def count_syllables(word):
+    """Count syllables in a word using CMU Pronouncing Dictionary."""
+    return [len([y for y in x if y[-1].isdigit()]) for x in pronouncing_dict.get(word.lower(), [[word]])][0]
+
 def generate_poem(topic, style, tone, length):
-    
+    """Generate an AI-enhanced poem with rhyme and sentiment control."""
+
+    # Adjust tone based on sentiment analysis
+    sentiment_result = sentiment_analyzer(tone)
+    if sentiment_result[0]['label'] == 'NEGATIVE':
+        tone = "melancholic"
+    elif sentiment_result[0]['label'] == 'POSITIVE':
+        tone = "joyful"
+
+    # Advanced AI Prompt
     prompt = (
-        f"\n\U0001F4DD Write a {style} about {topic} in a {tone} style. "
-        f"Use vivid imagery and metaphors. Keep it {length}.\n"
+        f"Write a {style} poem about {topic} in a {tone} style. "
+        f"Ensure it has strong imagery, a rhythmic flow, and natural line breaks. "
+        f"Use literary devices like metaphors, personification, and similes. "
+        f"Follow appropriate rhyming patterns if applicable. Keep it {length}.\n\n"
     )
 
     try:
+        # Generate poem using OpenAI API
         completion = client.chat.completions.create(
             extra_headers={
-                "HTTP-Referer": "https://openrouter.ai/settings/keys",  # Optional. Site URL for rankings on openrouter.ai.
-                "X-Title": "Openrounter.ai",  # Optional. Site title for rankings on openrouter.ai.
+                "HTTP-Referer": "https://openrouter.ai/settings/keys",
+                "X-Title": "AI Poetry Generator",
             },
-            extra_body={},
             model="deepseek/deepseek-r1:free",
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ]
+            messages=[{"role": "user", "content": prompt}],
         )
+
         poem = completion.choices[0].message.content.strip()
-        return textwrap.fill(poem, width=70)
+        
+        # Enhance readability
+        formatted_poem = "\n".join(textwrap.wrap(poem, width=60))
+
+        return formatted_poem
     
     except Exception as e:
-        return f"\U0001F6A8 An error occurred: {e}"
+        return f"❌ An error occurred: {e}"
 
 
 if __name__ == "__main__":
-    # Welcome banner
     print("""
-    \U0001F3B6====================================\U0001F3B6
-        WELCOME TO THE AI POETRY GENERATOR!
-    \U0001F3B6====================================\U0001F3B6
+    🎵====================================
+         WELCOME TO THE AI POETRY GENERATOR!
+    🎵====================================
     """)
 
-    # User input
-    topic = input("\U0001F4D6 Enter the topic of the poem (e.g., nature, love, technology): ")
-    style = input("\U0001F58B️ Enter the poetic style (e.g., haiku, sonnet, free verse): ")
-    tone = input("\U0001F4AC Enter the tone (e.g., melancholic, inspirational, humorous): ")
-    length = input("\U0001F4C4 Enter the length (short or long): ")
+    # User Input
+    topic = input("📖 Enter the topic of the poem (e.g., nature, love, technology): ").strip()
+    style = input("✒️ Enter the poetic style (e.g., haiku, sonnet, free verse): ").strip()
+    tone = input("💬 Enter the tone (e.g., melancholic, inspirational, humorous): ").strip()
+    length = input("📜 Enter the length (short or long): ").strip()
 
-    # Generating poem
-    print("\n\U0001F3A8 Generating your personalized poem...\n")
+    print("\n🎨 Generating your enhanced AI poem...\n")
     poem = generate_poem(topic, style, tone, length)
 
-    # Displaying poem
-    print(f"\U0001F4D6 Your AI-Generated Poem \U0001F4D6\n")
+    print("\n📖 Your AI-Enhanced Poem 📖\n")
     print(poem)
 
-    # Option to save the poem to a file
-    save_option = input("\n\U0001F4BE Would you like to save this poem? (yes/no): ").strip().lower()
+    # Save Option
+    save_option = input("\n💾 Would you like to save this poem? (yes/no): ").strip().lower()
     if save_option == "yes":
         with open("generated_poem.txt", "w") as file:
             file.write(poem)
-        print("\U0001F4E5 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! \U0001F3A8")
+        print("📥 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! 🎨")
     else:
-        print("\n\U0001F3B5 Thank you for using the AI Poetry Generator! Keep creating! \U0001F3B5")
+        print("\n🎵 Thank you for using the AI Poetry Generator! Keep creating! 🎵")

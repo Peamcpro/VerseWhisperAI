@@ -153,6 +153,16 @@ if __name__ == "__main__":
          WELCOME TO THE AI POETRY GENERATOR!
     🎵====================================
     """)
+    
+    print("""
+    📚 USER GUIDE 📚
+    1. Enter the topic of the poem (e.g., nature, love, technology).
+    2. Choose the poetic style (e.g., haiku, sonnet, free verse).
+    3. Specify the tone (e.g., melancholic, inspirational, humorous).
+    4. Indicate the length (short or long).
+    5. Optionally, generate a haiku after the main poem.
+    6. Save the generated poem if desired.
+    """)
 
     # User Input
     topic = input("📖 Enter the topic of the poem (e.g., nature, love, technology): ").strip()

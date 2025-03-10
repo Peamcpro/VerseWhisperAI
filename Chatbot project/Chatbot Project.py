@@ -61,6 +61,91 @@ def generate_poem(topic, style, tone, length):
     except Exception as e:
         return f"❌ An error occurred: {e}"
 
+def generate_haiku(topic):
+    """Generate a haiku poem about a given topic."""
+    prompt = (
+        f"Write a haiku about {topic}. "
+        f"Ensure it follows the 5-7-5 syllable structure and captures the essence of the topic.\n\n"
+    )
+
+    try:
+        # Generate haiku using OpenAI API
+        completion = client.chat.completions.create(
+            extra_headers={
+                "HTTP-Referer": "https://openrouter.ai/settings/keys",
+                "X-Title": "AI Haiku Generator",
+            },
+            model="deepseek/deepseek-r1:free",
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        haiku = completion.choices[0].message.content.strip()
+        
+        # Enhance readability
+        formatted_haiku = "\n".join(textwrap.wrap(haiku, width=60))
+
+        return formatted_haiku
+    
+    except Exception as e:
+        return f"❌ An error occurred: {e}"
+
+def generate_sonnet(topic):
+    """Generate a sonnet poem about a given topic."""
+    prompt = (
+        f"Write a sonnet about {topic}. "
+        f"Ensure it follows the traditional 14-line structure with an ABABCDCDEFEFGG rhyme scheme.\n\n"
+    )
+
+    try:
+        # Generate sonnet using OpenAI API
+        completion = client.chat.completions.create(
+            extra_headers={
+                "HTTP-Referer": "https://openrouter.ai/settings/keys",
+                "X-Title": "AI Sonnet Generator",
+            },
+            model="deepseek/deepseek-r1:free",
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        sonnet = completion.choices[0].message.content.strip()
+        
+        # Enhance readability
+        formatted_sonnet = "\n".join(textwrap.wrap(sonnet, width=60))
+
+        return formatted_sonnet
+    
+    except Exception as e:
+        return f"❌ An error occurred: {e}"
+
+def generate_free_verse(topic):
+    """Generate a free verse poem about a given topic."""
+    prompt = (
+        f"Write a free verse poem about {topic}. "
+        f"Ensure it has strong imagery, a rhythmic flow, and natural line breaks. "
+        f"Use literary devices like metaphors, personification, and similes.\n\n"
+    )
+
+    try:
+        # Generate free verse using OpenAI API
+        completion = client.chat.completions.create(
+            extra_headers={
+                "HTTP-Referer": "https://openrouter.ai/settings/keys",
+                "X-Title": "AI Free Verse Generator",
+            },
+            model="deepseek/deepseek-r1:free",
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        free_verse = completion.choices[0].message.content.strip()
+        
+        # Enhance readability
+        formatted_free_verse = "\n".join(textwrap.wrap(free_verse, width=60))
+
+        return formatted_free_verse
+    
+    except Exception as e:
+        return f"❌ An error occurred: {e}"
+
 
 if __name__ == "__main__":
     print("""
@@ -76,16 +161,29 @@ if __name__ == "__main__":
     length = input("📜 Enter the length (short or long): ").strip()
 
     print("\n🎨 Generating your enhanced AI poem...\n")
-    poem = generate_poem(topic, style, tone, length)
+    
+    if style.lower() == "sonnet":
+        poem = generate_sonnet(topic)
+    elif style.lower() == "free verse":
+        poem = generate_free_verse(topic)
+    else:
+        poem = generate_poem(topic, style, tone, length)
 
     print("\n📖 Your AI-Enhanced Poem 📖\n")
     print(poem)
 
-    # Save Option
-    save_option = input("\n💾 Would you like to save this poem? (yes/no): ").strip().lower()
-    if save_option == "yes":
-        with open("generated_poem.txt", "w") as file:
-            file.write(poem)
-        print("📥 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! 🎨")
+    haiku_option = input("\n🌸 Would you like to generate a haiku? (yes/no): ").strip().lower()
+    if haiku_option == "yes":
+        haiku_topic = input("📖 Enter the topic of the haiku (e.g., nature, love, technology): ").strip()
+        print("\n🎨 Generating your haiku...\n")
+        haiku = generate_haiku(haiku_topic)
+        print("\n📖 Your Haiku 📖\n")
+        print(haiku)
     else:
-        print("\n🎵 Thank you for using the AI Poetry Generator! Keep creating! 🎵")
+        save_option = input("\n💾 Would you like to save this poem? (yes/no): ").strip().lower()
+        if save_option == "yes":
+            with open("generated_poem.txt", "w") as file:
+                file.write(poem)
+            print("📥 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! 🎨")
+        else:
+            print("\n🎵 Thank you for using the AI Poetry Generator! Keep creating! 🎵")

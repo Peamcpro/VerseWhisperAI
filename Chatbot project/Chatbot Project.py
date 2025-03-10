@@ -166,9 +166,16 @@ if __name__ == "__main__":
 
     # User Input
     topic = input("📖 Enter the topic of the poem (e.g., nature, love, technology): ").strip()
+    print("Topic is the main subject or theme of the poem. Examples: nature, love, technology.")
+    
     style = input("✒️ Enter the poetic style (e.g., haiku, sonnet, free verse): ").strip()
+    print("Style refers to the form or structure of the poem. Examples: haiku (5-7-5 syllable structure), sonnet (14 lines with ABABCDCDEFEFGG rhyme scheme), free verse (no specific structure).")
+    
     tone = input("💬 Enter the tone (e.g., melancholic, inspirational, humorous): ").strip()
+    print("Tone is the mood or feeling conveyed by the poem. Examples: melancholic (sad or reflective), inspirational (uplifting), humorous (funny).")
+    
     length = input("📜 Enter the length (short or long): ").strip()
+    print("Length refers to the overall length of the poem. Examples: short (few lines), long (many lines).")
 
     print("\n🎨 Generating your enhanced AI poem...\n")
     

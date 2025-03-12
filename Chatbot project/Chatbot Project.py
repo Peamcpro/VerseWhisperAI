@@ -4,18 +4,22 @@ import nltk
 from nltk.corpus import cmudict
 from transformers import pipeline
 from openai import OpenAI
+from datasets import load_dataset  # Import the datasets library
 
 # Load Sentiment Analysis Model
-sentiment_analyzer = pipeline("sentiment-analysis")
+sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
 
 # Load CMU Pronouncing Dictionary for Rhyming
 nltk.download('cmudict')
 pronouncing_dict = cmudict.dict()
 
+# Load dataset for training
+dataset = load_dataset('json', data_files='C:/Users/Peam/OneDrive/เอกสาร/GitHub/VerseWhisperAI/Dataset/poetry_dataset.json')
+
 # OpenAI API Client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",  # Replace with your API key
+    api_key="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",  # Replace with your API key
 )
 
 def count_syllables(word):
@@ -100,6 +104,40 @@ def user_input_with_guidance():
 
     return topic, style, tone, length
 
+def check_poem_accuracy(poem, style, tone):
+    """Check the accuracy of the generated poem based on the given style and tone."""
+    accuracy_report = []
+
+    # Check style
+    if style == "haiku":
+        lines = poem.split('\n')
+        if len(lines) == 3:
+            syllable_counts = [count_syllables(line) for line in lines]
+            if syllable_counts == [5, 7, 5]:
+                accuracy_report.append("✅ Haiku structure is correct (5-7-5 syllables).")
+            else:
+                accuracy_report.append(f"❌ Haiku structure is incorrect. Syllable counts: {syllable_counts}")
+        else:
+            accuracy_report.append(f"❌ Haiku should have exactly 3 lines. Found: {len(lines)} lines.")
+    elif style == "sonnet":
+        lines = poem.split('\n')
+        if len(lines) == 14:
+            accuracy_report.append("✅ Sonnet structure is correct (14 lines).")
+        else:
+            accuracy_report.append(f"❌ Sonnet should have exactly 14 lines. Found: {len(lines)} lines.")
+    elif style == "free verse":
+        accuracy_report.append("✅ Free verse has no specific structure.")
+
+    # Check tone
+    sentiment_result = sentiment_analyzer(poem)
+    poem_tone = sentiment_result[0]['label'].lower()
+    if tone.lower() in poem_tone:
+        accuracy_report.append(f"✅ Tone matches the expected tone: {tone}.")
+    else:
+        accuracy_report.append(f"❌ Tone does not match. Expected: {tone}, Found: {poem_tone}.")
+
+    return "\n".join(accuracy_report)
+
 if __name__ == "__main__":
     topic, style, tone, length = user_input_with_guidance()
 
@@ -109,6 +147,11 @@ if __name__ == "__main__":
 
     print("\n📖 Your AI-Enhanced Poem 📖\n")
     print(poem)
+
+    # Check accuracy
+    accuracy_report = check_poem_accuracy(poem, style, tone)
+    print("\n🔍 Accuracy Report 🔍\n")
+    print(accuracy_report)
 
     save_option = input("\n💾 Would you like to save this poem? (yes/no): ").strip().lower()
     if save_option == "yes":

@@ -1,0 +1,3502 @@
+[
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective limerick about nature...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective haiku about nature...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous limerick about nature...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous limerick about nature...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational limerick about nature...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective haiku about nature...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous haiku about technology...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective limerick about nature...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous limerick about nature...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective haiku about nature...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective limerick about nature...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous limerick about nature...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous haiku about technology...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective haiku about nature...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective haiku about technology...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective haiku about nature...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective haiku about technology...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective limerick about love...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational limerick about nature...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective free verse about love...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective limerick about nature...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational haiku about nature...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational limerick about nature...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective limerick about nature...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A reflective haiku about love...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous free verse about love...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational haiku about love...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational free verse about love...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective haiku about technology...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Humorous",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic limerick about technology...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 11
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous haiku about technology...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective haiku about technology...",
+        "style": "Haiku",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective limerick about technology...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational limerick about nature...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous limerick about love...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A melancholic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A inspirational limerick about love...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic limerick about love...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous haiku about technology...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational limerick about technology...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A inspirational limerick about nature...",
+        "style": "Limerick",
+        "tone": "Inspirational",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 12
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic haiku about love...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous haiku about nature...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic haiku about nature...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational free verse about technology...",
+        "style": "Free Verse",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic haiku about technology...",
+        "style": "Haiku",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A romantic sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Romantic",
+        "syllable_count": 7
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective limerick about nature...",
+        "style": "Limerick",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic haiku about love...",
+        "style": "Haiku",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Technology",
+        "poem": "A inspirational haiku about technology...",
+        "style": "Haiku",
+        "tone": "Inspirational",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A romantic free verse about love...",
+        "style": "Free Verse",
+        "tone": "Romantic",
+        "syllable_count": 14
+    },
+    {
+        "theme": "Technology",
+        "poem": "A humorous limerick about technology...",
+        "style": "Limerick",
+        "tone": "Humorous",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 5
+    },
+    {
+        "theme": "Nature",
+        "poem": "A reflective free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Reflective",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic sonnet about love...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 13
+    },
+    {
+        "theme": "Nature",
+        "poem": "A humorous free verse about nature...",
+        "style": "Free Verse",
+        "tone": "Humorous",
+        "syllable_count": 10
+    },
+    {
+        "theme": "Love",
+        "poem": "A humorous haiku about love...",
+        "style": "Haiku",
+        "tone": "Humorous",
+        "syllable_count": 8
+    },
+    {
+        "theme": "Technology",
+        "poem": "A reflective sonnet about technology...",
+        "style": "Sonnet",
+        "tone": "Reflective",
+        "syllable_count": 9
+    },
+    {
+        "theme": "Love",
+        "poem": "A melancholic limerick about love...",
+        "style": "Limerick",
+        "tone": "Melancholic",
+        "syllable_count": 6
+    },
+    {
+        "theme": "Nature",
+        "poem": "A romantic limerick about nature...",
+        "style": "Limerick",
+        "tone": "Romantic",
+        "syllable_count": 15
+    },
+    {
+        "theme": "Nature",
+        "poem": "A melancholic sonnet about nature...",
+        "style": "Sonnet",
+        "tone": "Melancholic",
+        "syllable_count": 7
+    }
+]

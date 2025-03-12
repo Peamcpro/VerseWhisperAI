@@ -15,7 +15,7 @@ pronouncing_dict = cmudict.dict()
 # OpenAI API Client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",  # Replace with your API key
+    api_key="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",  # Replace with your API key
 )
 
 def count_syllables(word):
@@ -60,93 +60,7 @@ def generate_poem(topic, style, tone, length):
     
     except Exception as e:
         return f"❌ An error occurred: {e}"
-
-def generate_haiku(topic):
-    """Generate a haiku poem about a given topic."""
-    prompt = (
-        f"Write a haiku about {topic}. "
-        f"Ensure it follows the 5-7-5 syllable structure and captures the essence of the topic.\n\n"
-    )
-
-    try:
-        # Generate haiku using OpenAI API
-        completion = client.chat.completions.create(
-            extra_headers={
-                "HTTP-Referer": "https://openrouter.ai/settings/keys",
-                "X-Title": "AI Haiku Generator",
-            },
-            model="deepseek/deepseek-r1:free",
-            messages=[{"role": "user", "content": prompt}],
-        )
-
-        haiku = completion.choices[0].message.content.strip()
-        
-        # Enhance readability
-        formatted_haiku = "\n".join(textwrap.wrap(haiku, width=60))
-
-        return formatted_haiku
     
-    except Exception as e:
-        return f"❌ An error occurred: {e}"
-
-def generate_sonnet(topic):
-    """Generate a sonnet poem about a given topic."""
-    prompt = (
-        f"Write a sonnet about {topic}. "
-        f"Ensure it follows the traditional 14-line structure with an ABABCDCDEFEFGG rhyme scheme.\n\n"
-    )
-
-    try:
-        # Generate sonnet using OpenAI API
-        completion = client.chat.completions.create(
-            extra_headers={
-                "HTTP-Referer": "https://openrouter.ai/settings/keys",
-                "X-Title": "AI Sonnet Generator",
-            },
-            model="deepseek/deepseek-r1:free",
-            messages=[{"role": "user", "content": prompt}],
-        )
-
-        sonnet = completion.choices[0].message.content.strip()
-        
-        # Enhance readability
-        formatted_sonnet = "\n".join(textwrap.wrap(sonnet, width=60))
-
-        return formatted_sonnet
-    
-    except Exception as e:
-        return f"❌ An error occurred: {e}"
-
-def generate_free_verse(topic):
-    """Generate a free verse poem about a given topic."""
-    prompt = (
-        f"Write a free verse poem about {topic}. "
-        f"Ensure it has strong imagery, a rhythmic flow, and natural line breaks. "
-        f"Use literary devices like metaphors, personification, and similes.\n\n"
-    )
-
-    try:
-        # Generate free verse using OpenAI API
-        completion = client.chat.completions.create(
-            extra_headers={
-                "HTTP-Referer": "https://openrouter.ai/settings/keys",
-                "X-Title": "AI Free Verse Generator",
-            },
-            model="deepseek/deepseek-r1:free",
-            messages=[{"role": "user", "content": prompt}],
-        )
-
-        free_verse = completion.choices[0].message.content.strip()
-        
-        # Enhance readability
-        formatted_free_verse = "\n".join(textwrap.wrap(free_verse, width=60))
-
-        return formatted_free_verse
-    
-    except Exception as e:
-        return f"❌ An error occurred: {e}"
-
-
 if __name__ == "__main__":
     print("""
     🎵====================================

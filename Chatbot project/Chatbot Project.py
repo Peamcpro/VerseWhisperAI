@@ -15,7 +15,7 @@ pronouncing_dict = cmudict.dict()
 # OpenAI API Client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",  # Replace with your API key
+    api_key="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",  # Replace with your API key
 )
 
 def count_syllables(word):
@@ -61,60 +61,59 @@ def generate_poem(topic, style, tone, length):
     except Exception as e:
         return f"❌ An error occurred: {e}"
     
-if __name__ == "__main__":
+def user_input_with_guidance():
+    """Guide the user through the input process with explanations."""
     print("""
     🎵====================================
          WELCOME TO THE AI POETRY GENERATOR!
     🎵====================================
     """)
-    
+
     print("""
     📚 USER GUIDE 📚
-    1. Enter the topic of the poem (e.g., nature, love, technology).
-    2. Choose the poetic style (e.g., haiku, sonnet, free verse).
-    3. Specify the tone (e.g., melancholic, inspirational, humorous).
-    4. Indicate the length (short or long).
-    5. Optionally, generate a haiku after the main poem.
-    6. Save the generated poem if desired.
+    1️⃣ Enter the topic of the poem (e.g., nature, love, technology).
+    2️⃣ Choose the poetic style (e.g., haiku, sonnet, free verse).
+    3️⃣ Specify the tone (e.g., melancholic, inspirational, humorous).
+    4️⃣ Indicate the length (short or long).
+    5️⃣ Optionally, generate a haiku after the main poem.
+    6️⃣ Save the generated poem if desired.
     """)
 
-    # User Input
+    # User Input with Explanations
     topic = input("📖 Enter the topic of the poem (e.g., nature, love, technology): ").strip()
-    print("Topic is the main subject or theme of the poem. Examples: nature, love, technology.")
-    
-    style = input("✒️ Enter the poetic style (e.g., haiku, sonnet, free verse): ").strip()
-    print("Style refers to the form or structure of the poem. Examples: haiku (5-7-5 syllable structure), sonnet (14 lines with ABABCDCDEFEFGG rhyme scheme), free verse (no specific structure).")
-    
+    print("ℹ️ Topic is the main subject or theme of the poem. Example: 'love', 'space', 'adventure'.")
+
+    style_options = ["haiku", "sonnet", "free verse"]
+    style = input("✒️ Enter the poetic style (haiku, sonnet, free verse): ").strip().lower()
+    while style not in style_options:
+        print("❌ Invalid style. Please choose from: haiku, sonnet, free verse.")
+        style = input("✒️ Enter the poetic style again: ").strip().lower()
+
     tone = input("💬 Enter the tone (e.g., melancholic, inspirational, humorous): ").strip()
-    print("Tone is the mood or feeling conveyed by the poem. Examples: melancholic (sad or reflective), inspirational (uplifting), humorous (funny).")
-    
-    length = input("📜 Enter the length (short or long): ").strip()
-    print("Length refers to the overall length of the poem. Examples: short (few lines), long (many lines).")
+    print("ℹ️ Tone is the mood of the poem. Example: 'melancholic' (sad), 'inspirational' (uplifting).")
+
+    length_options = ["short", "long"]
+    length = input("📜 Enter the length (short or long): ").strip().lower()
+    while length not in length_options:
+        print("❌ Invalid length. Please choose 'short' or 'long'.")
+        length = input("📜 Enter the length again: ").strip().lower()
+
+    return topic, style, tone, length
+
+if __name__ == "__main__":
+    topic, style, tone, length = user_input_with_guidance()
 
     print("\n🎨 Generating your enhanced AI poem...\n")
     
-    if style.lower() == "sonnet":
-        poem = generate_sonnet(topic)
-    elif style.lower() == "free verse":
-        poem = generate_free_verse(topic)
-    else:
-        poem = generate_poem(topic, style, tone, length)
+    poem = generate_poem(topic, style, tone, length)
 
     print("\n📖 Your AI-Enhanced Poem 📖\n")
     print(poem)
 
-    haiku_option = input("\n🌸 Would you like to generate a haiku? (yes/no): ").strip().lower()
-    if haiku_option == "yes":
-        haiku_topic = input("📖 Enter the topic of the haiku (e.g., nature, love, technology): ").strip()
-        print("\n🎨 Generating your haiku...\n")
-        haiku = generate_haiku(haiku_topic)
-        print("\n📖 Your Haiku 📖\n")
-        print(haiku)
+    save_option = input("\n💾 Would you like to save this poem? (yes/no): ").strip().lower()
+    if save_option == "yes":
+        with open("generated_poem.txt", "w") as file:
+            file.write(poem)
+        print("📥 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! 🎨")
     else:
-        save_option = input("\n💾 Would you like to save this poem? (yes/no): ").strip().lower()
-        if save_option == "yes":
-            with open("generated_poem.txt", "w") as file:
-                file.write(poem)
-            print("📥 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! 🎨")
-        else:
-            print("\n🎵 Thank you for using the AI Poetry Generator! Keep creating! 🎵")
+        print("\n🎵 Thank you for using the AI Poetry Generator! Keep creating! 🎵")

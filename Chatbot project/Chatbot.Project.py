@@ -3,20 +3,22 @@ import random
 import textwrap
 import nltk
 from nltk.corpus import cmudict
-from transformers import pipeline, TFAutoModelForSequenceClassification, AutoTokenizer
+from transformers import pipeline, TFAutoModelForSequenceClassification, AutoTokenizer, TFDistilBertForSequenceClassification
 from openai import OpenAI
 from datasets import load_dataset  # Import the datasets library
 import tkinter as tk
 from tkinter import Button, filedialog, Label
 import tensorflow as tf
 
-# ✅ Enable CPU optimizations
-os.environ["TF_ENABLE_ONEDNN_OPTS"] = "1"  # Use oneDNN optimizations
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  # Suppress unnecessary warnings
+# Force TensorFlow to use the CPU
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-# ✅ Optimize TensorFlow threading
-tf.config.threading.set_intra_op_parallelism_threads(4)  # Adjust based on your CPU
-tf.config.threading.set_inter_op_parallelism_threads(2)  # Adjust based on your CPU
+# Optimize thread parallelism for AMD
+tf.config.threading.set_intra_op_parallelism_threads(8)  # Adjust based on CPU cores
+tf.config.threading.set_inter_op_parallelism_threads(4)
+
+# Update TensorFlow to use the compat.v1 module for deprecated functions
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 def update_cmudict():
     """Update the CMU Pronouncing Dictionary."""
@@ -35,7 +37,7 @@ sentiment_analyzer = pipeline("sentiment-analysis", model=model, tokenizer=token
 # ✅ OpenAI API Client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",  # Replace with your API key
+    api_key="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"  # Replace with your API key
 )
 
 def count_syllables(word):
@@ -92,6 +94,7 @@ def generate_poem(topic, style, tone, length):
         return formatted_poem
     
     except Exception as e:
+        print(f"❌ An error occurred: {e}")
         return f"❌ An error occurred: {e}"
 
 def user_input_with_guidance():

@@ -9,6 +9,7 @@ from datasets import load_dataset  # Import the datasets library
 import tkinter as tk
 from tkinter import Button, filedialog, Label
 import tensorflow as tf
+import logging
 
 # Force TensorFlow to use the CPU
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
@@ -17,8 +18,12 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 tf.config.threading.set_intra_op_parallelism_threads(8)  # Adjust based on CPU cores
 tf.config.threading.set_inter_op_parallelism_threads(4)
 
+# Define the loss function
+loss_function = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
+
 # Update TensorFlow to use the compat.v1 module for deprecated functions
-tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+#tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+logging.getLogger('tensorflow').setLevel(logging.ERROR)
 
 def update_cmudict():
     """Update the CMU Pronouncing Dictionary."""

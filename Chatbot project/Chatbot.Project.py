@@ -3,27 +3,20 @@ import random
 import textwrap
 import nltk
 from nltk.corpus import cmudict
-from transformers import pipeline, TFAutoModelForSequenceClassification, AutoTokenizer, TFDistilBertForSequenceClassification
-from openai import OpenAI
-from datasets import load_dataset  # Import the datasets library
+from transformers import pipeline, AutoModelForSequenceClassification, AutoTokenizer
+import openai 
+from datasets import load_dataset
 import tkinter as tk
 from tkinter import Button, filedialog, Label
-import tensorflow as tf
 import logging
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
+import requests
 
-# Force TensorFlow to use the CPU
+# Force the use of CPU
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-# Optimize thread parallelism for AMD
-tf.config.threading.set_intra_op_parallelism_threads(8)  # Adjust based on CPU cores
-tf.config.threading.set_inter_op_parallelism_threads(4)
-
-# Define the loss function
-loss_function = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
-
-# Update TensorFlow to use the compat.v1 module for deprecated functions
-#tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
-logging.getLogger('tensorflow').setLevel(logging.ERROR)
+# Update logging settings
+logging.getLogger('transformers').setLevel(logging.ERROR)
 
 def update_cmudict():
     """Update the CMU Pronouncing Dictionary."""
@@ -33,16 +26,16 @@ def update_cmudict():
 update_cmudict()
 pronouncing_dict = cmudict.dict()
 
-# ✅ Load Sentiment Analysis Model with CPU Optimization
+# ✅ Load Sentiment Analysis Model
 model_name = "distilbert-base-uncased-finetuned-sst-2-english"
-model = TFAutoModelForSequenceClassification.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-sentiment_analyzer = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer, framework='tf', device=-1)  # ✅ Force CPU usage
+sentiment_analyzer = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)  # ✅ Use CPU
 
 # ✅ OpenAI API Client
-client = OpenAI(
+client = openai.OpenAI(  # If using OpenAI SDK v1+
     base_url="https://openrouter.ai/api/v1",
-    api_key="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"  # Replace with your API key
+    api_key="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",
 )
 
 def count_syllables(word):
@@ -62,45 +55,44 @@ def find_rhymes(word):
     return []
 
 def generate_poem(topic, style, tone, length):
-    """Generate an AI-enhanced poem with rhyme and sentiment control."""
-
-    # Adjust tone based on sentiment analysis
-    sentiment_result = sentiment_analyzer(tone)
-    if sentiment_result[0]['label'] == 'NEGATIVE':
-        tone = "melancholic"
-    elif sentiment_result[0]['label'] == 'POSITIVE':
-        tone = "joyful"
-
-    # Advanced AI Prompt
+    """
+    Generate a poem based on user-defined parameters using DeepSeek API.
+    
+    :param topic: The subject of the poem (e.g., nature, technology).
+    :param style: The poetic form (e.g., haiku, sonnet, free verse).
+    :param tone: The emotional tone (e.g., melancholic, inspirational).
+    :param length: Desired length (e.g., short, long).
+    :return: AI-generated poem as a string.
+    """
+    
+    # Craft the prompt for the AI
     prompt = (
-        f"Write a {style} poem about {topic} in a {tone} style. "
-        f"Ensure it has strong imagery, a rhythmic flow, and natural line breaks. "
-        f"Use literary devices like metaphors, personification, and similes. "
-        f"Follow appropriate rhyming patterns if applicable. Keep it {length}.\n\n"
+        f"\n\U0001F4DD Write a {style} about {topic} in a {tone} style. "
+        f"Use vivid imagery and metaphors. Keep it {length}.\n"
     )
 
+    headers = {
+        'Authorization': f'Bearer {client.api_key}',
+        'Content-Type': 'application/json'
+    }
+
+    data = {
+        "prompt": prompt,
+        "max_tokens": 150 if length.lower() == "short" else 300,
+        "temperature": 0.7  # Controls creativity. Higher values = more creative.
+    }
+
     try:
-        # Generate poem using OpenAI API
-        completion = client.chat.completions.create(
-            extra_headers={
-                "HTTP-Referer": "https://openrouter.ai/settings/keys",  # Optional. Replace with your site URL
-                "X-Title": "<YOUR_SITE_NAME>",  # Optional. Replace with your site name
-            },
-            extra_body={},
-            model="deepseek/deepseek-r1:free",
-            messages=[{"role": "user", "content": prompt}],
-        )
-
-        poem = completion.choices[0].message.content.strip()
-        
-        # Enhance readability
-        formatted_poem = "\n".join(textwrap.wrap(poem, width=60))
-
-        return formatted_poem
+        response = requests.post(client.base_url, headers=headers, json=data)
+        response.raise_for_status()  # Raise an error for bad status codes
+        result = response.json()
+        poem = result.get('text', '').strip()
+        return textwrap.fill(poem, width=70)
     
+    except requests.exceptions.RequestException as e:
+        return f"\U0001F6A8 An error occurred: {e}"
     except Exception as e:
-        print(f"❌ An error occurred: {e}")
-        return f"❌ An error occurred: {e}"
+        return f"\U0001F6A8 An unexpected error occurred: {e}"
 
 def user_input_with_guidance():
     """Guide the user through the input process with explanations."""
@@ -173,3 +165,55 @@ def check_poem_accuracy(poem, style, tone):
         accuracy_report.append(f"❌ Tone does not match. Expected: {tone}, Found: {poem_tone}.")
 
     return "\n".join(accuracy_report)
+
+# Model Performance and Evaluation Methods
+
+def evaluate_model_performance():
+    """Evaluate the model performance using various metrics."""
+    # Example evaluation logic
+    true_labels = ["positive", "negative", "positive"]
+    predicted_labels = ["positive", "negative", "negative"]
+
+    accuracy = accuracy_score(true_labels, predicted_labels)
+    precision = precision_score(true_labels, predicted_labels, average='weighted')
+    recall = recall_score(true_labels, predicted_labels, average='weighted')
+    f1 = f1_score(true_labels, predicted_labels, average='weighted')
+
+    print(f"Accuracy: {accuracy}")
+    print(f"Precision: {precision}")
+    print(f"Recall: {recall}")
+    print(f"F1 Score: {f1}")
+
+if __name__ == "__main__":
+    # Welcome banner
+    print("""
+    \U0001F3B6====================================\U0001F3B6
+        WELCOME TO THE AI POETRY GENERATOR!
+    \U0001F3B6====================================\U0001F3B6
+    """)
+
+    # User input
+    topic = input("\U0001F4D6 Enter the topic of the poem (e.g., nature, love, technology): ")
+    style = input("\U0001F58B️ Enter the poetic style (e.g., haiku, sonnet, free verse): ")
+    tone = input("\U0001F4AC Enter the tone (e.g., melancholic, inspirational, humorous): ")
+    length = input("\U0001F4C4 Enter the length (short or long): ")
+
+    # Generating poem
+    print("\n\U0001F3A8 Generating your personalized poem...\n")
+    poem = generate_poem(topic, style, tone, length)
+
+    # Displaying poem
+    print(f"\U0001F4D6 Your AI-Generated Poem \U0001F4D6\n")
+    print(poem)
+
+    # Option to save the poem to a file
+    save_option = input("\n\U0001F4BE Would you like to save this poem? (yes/no): ").strip().lower()
+    if save_option == "yes":
+        with open("generated_poem.txt", "w") as file:
+            file.write(poem)
+        print("\U0001F4E5 Poem saved as 'generated_poem.txt'! Enjoy your masterpiece! \U0001F3A8")
+    else:
+        print("\n\U0001F3B5 Thank you for using the AI Poetry Generator! Keep creating! \U0001F3B5")
+
+    # Evaluate model performance
+    evaluate_model_performance()
